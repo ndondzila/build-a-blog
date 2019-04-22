@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <header>
+        <a href="/bloglist">Blog Page</a>
+        <a href="/">Add New Post</a>
+
+        <style>
+            br {margin-bottom: 20px;}
+            .error {color: red; font-weight: bold;}
+            h1 {text-align: center; font-size: 300%; font-weight: bold;}
+            label {text-align: center; font-size: 200%}
+            textarea {align-self: auto;}
+    
+        </style>
+
+        <title>{{title}}</title>
+
+    </header>
+
+<body>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
